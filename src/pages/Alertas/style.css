@@ -1,0 +1,487 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  
+  .logo {
+    width: 48px;
+    height: 30px;
+    width: max-content;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+  
+  
+  .logo1 {
+    display: none;
+  }
+  
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .esquerdo {
+    color: #fff;
+    padding-left: 20px;
+    height: 100vh;
+    background-image: linear-gradient(30deg, #003D73, #003D73);
+    width: 20%;
+  
+  }
+  
+  
+  .menulogo h2 {
+    margin-left: 30px;
+  }
+  
+  
+  .menulogo p {
+    color: #fff;
+    padding: 12px;
+    padding-left: 30px;
+    text-decoration: none;
+  }
+  
+  
+  .coracaocinho {
+    position: relative;
+    margin: 20px;
+  }
+  
+  .coracao {
+    width: 10px;
+    position: absolute;
+    left: 5px;
+    margin-top: 5px;
+  }
+  
+  
+  .busca {
+    width: 100px;
+    height: 25px;
+    background: #053155;
+    border: none;
+  }
+  
+  .caixinha {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .perfilcliente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    GAP: 10px;
+    background-color: #ffff;
+    border-radius: 10px;
+    width: 175px;
+    padding: 10px;
+  }
+  
+  .perfilfoto {
+    width: 40px;
+  }
+  
+  
+  .busca::placeholder {
+    padding-left: 20px;
+  }
+  
+  
+  .menugeral {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 88vh;
+    list-style: none;
+  }
+  
+  
+  .menufinal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    gap: 15px;
+  
+  }
+  
+  
+  .div-imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  .div-imagens img,
+  .menufinal img {
+    width: 20px;
+    
+  }
+  
+  
+  .direito {
+    width: 100%;
+    top: 135px;
+    background-color: #EAEFF6;
+    padding: 30px;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+  
+  
+  .h2mobile {
+    display: none;
+  }
+  
+  
+  .perfil {
+    display: none;
+  }
+  
+  
+  
+  
+  /*
+  .texto {
+    margin-left: 40px;
+  
+  }
+  */
+  
+  
+  .texto h2 {
+    color: #000000;
+    margin-top: 40px;
+  }
+  
+  
+  .botaocomecar {
+    height: 40px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .texto p {
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+  }
+  
+  
+  .sinodesk {
+    display: none;
+  }
+  
+  
+  .caixa {
+    height: 40px;
+    float: right;
+    margin: 20px;
+    border-radius: 10px;
+    margin-top: -55px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  
+  .caixa img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  
+  .logomobile {
+    display: none;
+  }
+  
+  
+  .fotomobile {
+    display: none;
+  }
+  
+  
+  .mes {
+    display: none;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .printemail {
+    display: none;
+  }
+  
+  
+  .analises {
+    display: none;
+  }
+  
+  /* Month header */
+  
+  .calendario {
+    margin-top: 80px;
+   } 
+  .month {
+    padding: 20px;
+    width: 100%;
+    background: #053155;
+    text-align: center;
+  }
+  
+  
+  .fotomobile {
+    display: none;
+  }
+  
+  
+  
+  
+  /* Month list */
+  
+  
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  
+  
+  
+  /* Previous button inside month header */
+  
+  
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  
+  
+  
+  /* Next button */
+  
+  
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  
+  
+  
+  /* Weekdays (Mon-Sun) */
+  
+  
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    font-size: 15px;
+  
+  }
+  
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+  
+  
+  
+  
+  /* Days (1-31) */
+  
+  
+  .days {
+   
+    background: #eee;
+    margin: 0;
+  }
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: px20;
+    color: #777;
+  }
+
+
+  .testecalendario {
+    display: flex;
+    align-items: center;
+    margin: 100px;
+  }
+  
+  /* Highlight the "current" day */
+  .days li .active {
+    padding: 5px;
+    background: #053155;
+    color: white !important
+  }
+  
+  @media screen and (max-width: 796px) {
+    body {
+        width: 100%;
+        background-size: 100% 70%;
+        flex-direction: row-reverse;
+    }
+    .esquerdo {
+        width: 10%;
+        border-radius: 10px;
+        height: 90vh;
+    }
+    .menulogo h2 {
+        display: none;
+    }
+    .coracaocinho {
+        display: none;
+    }
+    .menulogo p {
+        display: none;
+    }
+    .menufinal {
+        margin-top: 220px;
+    }
+    .logomobile {
+        display: flex;
+        margin-top: 50px;
+        width: 30px;
+        height: 20px;
+    }
+    .logo {
+        display: none;
+    }
+   
+    .logo1 {
+        display: flex;
+        height: 45px;
+        width: max-content;
+       
+    }
+    .h2desk {
+        display: none;
+    }
+    .texto p {
+        display: none;
+    }
+    .caixa {
+        display: none;
+    }
+    .h2mobile {
+        display: flex;
+        color: #000000;
+    }
+    .alertasino {
+        width: 48px;
+    }
+    .weekdays {
+        display: flex;
+        font-size: 13px;
+    }
+    .botaocomecar {
+        height: 40px;
+    }
+    .days li {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 20px;
+        color: #777;
+    }
+   
+  
+    .perfil {
+        display: flex;
+    }
+    .div-imagens {
+   
+    margin-top: 20px;
+    }
+  
+    .perfilcliente {
+      display: none;
+    }
+  
+    .calendario {
+     margin-top: 100px;
+    }
+  
+    .direito {
+     
+      background-color: #ffffff;
+      
+    }
+    .printemail {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #F1F1F1;
+      border-radius: 10px;
+      width: 400px;
+      font-family: 'Lato', sans-serif;
+      margin-top: 20px;
+      margin: 70px;
+      padding: 10px;
+  }
+  .cinco   {
+    width: 40px;
+    display: flex;
+  
+  }
+  .analises {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    width: 400px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+    margin: 70px;
+    padding: 10px;
+  }
+  
+  
+  .tres  {
+  width: 40px;
+  display: flex;
+  }
+  
+  
+    }
+    
+  
+  
+  
+  
+  
+  
+  
