@@ -187,7 +187,7 @@ aside {
 aside:hover {
     width: 20vw;
     transition: 0.5s;
-
+}
     .menu-aberto {
     
 
@@ -341,4 +341,3 @@ aside:hover {
         background: #777;
         border-radius: 10px;
     }
-}
