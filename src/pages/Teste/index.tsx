@@ -1,5 +1,4 @@
 import "./style.css"
-import 'react-calendar/dist/Calendar.css';
 import { Link } from "react-router-dom";
 
 
@@ -7,17 +6,22 @@ import { Link } from "react-router-dom";
 export  function Teste() {
 return (
 <>
-  <div classname="vermelho">
+
+{/* <div className="alertas">
+</div> */}
+  <div className="vermelho">
     <span>Alertas críticos</span>
   </div>
-  <div classname="amarelo">
+  {/* <div className="amarelo">
     <span>Alertas urgente</span>
   </div>
-  <div classname="verde">
+  <div className="verde">
     <span>Sugestão do sistema</span>
-  </div>
-</>
+  </div> */}
 
+
+
+</>
 )
 }
 

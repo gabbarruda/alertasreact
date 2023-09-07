@@ -15,6 +15,9 @@
     --verde: #4ECB71;
     --preto: #000000;
     --azulBranco: #EAEFF6;
+    --vermelho: hsl(0, 100%, 51%);
+    --amarelo: #fbd200;
+    --verde: #3cff00;
 }
 
 aside {
