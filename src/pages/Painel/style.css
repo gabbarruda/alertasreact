@@ -92,6 +92,7 @@
  .mainCards {
     display: flex;
     flex-direction: column;
+    padding-right:40px;
  }
 
  .img  {
