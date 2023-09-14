@@ -21,8 +21,11 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 <>
   <React.StrictMode>
     <BrowserRouter>
-    <Header/>
     <MenuLateral/>
+
+    <section className='body'>
+    <Header/>
+
     <Routes>   
     <Route path='alertas' element={<Alertas/>}/>
     {/* <Route path='teste' element={<Alerta/>}/> */}
@@ -31,7 +34,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 
 
       </Routes>
+      </section>
     </BrowserRouter>
-  </React.StrictMode>c
+  </React.StrictMode>
 </>
 )
