@@ -1,7 +1,6 @@
-import Calendar from "react-calendar";
 
 import "./style.css"
-import 'react-calendar/dist/Calendar.css';
+
 // import Login from './pages/Login'
 // import Home from './pages/Home'
 
@@ -16,12 +15,7 @@ function Alertas() {
 
 
 
-  type ValuePiece = Date | null;
-
-  type Value = ValuePiece | [ValuePiece, ValuePiece];
-
-    const [value, onChange] = useState<Value>(new Date());
-  
+ 
     
     
   return (
@@ -70,10 +64,7 @@ function Alertas() {
           <img src={ Painel } alt="btn-user-info" />
 
         </div>
-        <div className="testecalendario">
-        <Calendar onChange={onChange} value={value} />
-        
-      </div>
+       
       </section>
     </>
 
