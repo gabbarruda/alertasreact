@@ -13,10 +13,6 @@ import { useState } from "react";
 
 function Alertas() {
 
-
-
- 
-    
     
   return (
     <>

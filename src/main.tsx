@@ -7,7 +7,6 @@ import MenuLateral from './components/MenuLateral'
 
 
 
-import 'react-calendar/dist/Calendar.css';
 import Alertas from './pages/Alertas'
 // import Alerta from './pages/Alerta'
 
