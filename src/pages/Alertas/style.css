@@ -20,6 +20,7 @@
     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
     height: 200px;
     margin-top: 100px;
+    width: 300px;
 }
 
 .number {
@@ -87,10 +88,17 @@
     margin: 30px;
   }
 
-  .grafico {
+  .grafico-demonstrativo {
     display: flex;
-    width: 80px;
     justify-content: space-between;
+  }
+  
+  .grafico-demonstrativo img:nth-child(1) {
+    width: 800px;
+  }
+
+  .grafico-demonstrativo img:nth-child(2) {
+    width: 500px;
   }
 
   .react-calendar {
@@ -127,6 +135,12 @@
   
 
     root {
+      width: 100%;
+      background-size: 100% 70%;
+      flex-direction: row-reverse;
+  }
+
+  .cards .card {
       width: 100%;
       background-size: 100% 70%;
       flex-direction: row-reverse;

@@ -55,7 +55,7 @@ function Alertas() {
             </div>
           </div>
         </div>
-        <div className="grafico">
+        <div className="grafico-demonstrativo">
           <img src={ Resultado } alt="btn-user-info" />
           <img src={ Painel } alt="btn-user-info" />
 
