@@ -47,7 +47,7 @@ function Alertas() {
           </div>
           <div className="card concluido">
             <div className="card-conten">
-              <div className="number">20</div>
+              <div className="number">25</div>
               <div className="card-name">Concluído</div>
             </div>
             <div className="icon-box">
