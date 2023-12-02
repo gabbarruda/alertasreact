@@ -49,19 +49,22 @@
     color: #ffffff;
 }
 
- .critico {
+
+.cards .critico {
     background-color: #f07c7c;
 }
 
 
-.urgentes {
+
+.cards .urgentes {
     background-color:#7ab8f6;
 }
 
-.normais {
+
+.cards .normais {
     background-color: #ede556;
 }
-.concluido {
+.cards .concluido {
     background-color: #8df69f;
 }
 

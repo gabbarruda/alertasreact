@@ -1,14 +1,15 @@
 const INPUT_BUSCA = document.getElementById('input-busca');
-const TABELA_BEBIDAS = document.getElementById('tabela-bebidas');
+const TABELA_TABELA_ALERTAS = document.getElementById('tabela-alertas');
 
 INPUT_BUSCA.addEventListener('keyup', () => {
     let expressao = INPUT_BUSCA.value.toLowerCase();
+    
 
     if (expressao.length === 1) {
         return;
     }
 
-    let linhas = TABELA_BEBIDAS.getElementsByTagName('tr');
+    let linhas = TABELA_ALERTAS.getElementsByTagName('tr');
 
     for (let posicao in linhas) {
         if (true === isNaN(posicao)) {

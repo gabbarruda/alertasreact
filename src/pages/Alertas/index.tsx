@@ -3,6 +3,7 @@ import "../../pages/Alertas/style.css"
 //import '~bootstrap/dist/css/bootstrap.css';   
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import historico from './historico';
 //import { useState } from "react";
 
 function Alertas() {
@@ -15,7 +16,7 @@ function Alertas() {
           <div className="card critico">
             <div className="card-conten">
               <div className="number">50</div>
-              <div className="card-name">Alertas criticos</div>
+              <div className="card-name">Críticos</div>
             </div>
             <div className="icon-box">
               <i className="fas fa-user-graduate" />
@@ -61,119 +62,67 @@ function Alertas() {
   <table className="table table-hover table-striped">
     <thead className="table-dark">
       <tr>
-        <th>#ID</th>
-        <th>Alertas criticos</th>
-        <th>Urgentes</th>
-        <th>Normais</th>
-        <th>Concluído</th>
+        <th>Nome Alerta</th>
+        <th>Nível criticidade</th>
+        <th>Data</th>
+        <th>Status</th>
+        <th>Descrição alerta</th>
+        <th>ID_ERRO</th>
       </tr>
     </thead>
-    <tbody id="tabela-bebidas">
+    <tbody id="tabela-alertas">
       <tr>
+        <td>Urgente</td>
         <td>1</td>
-        <td>Ypióca</td>
-        <td>Prata, 960ml</td>
-        <td>4</td>
-        <td>
-          <button className="btn btn-sm btn-warning">Editar</button>
-        
-        </td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Heineken</td>
-        <td>Long neck, 355ml</td>
-        <td>72</td>
-        <td>
-          <button className="btn btn-sm btn-warning">Editar</button>
-
-        </td>
-      </tr>
-      <tr>
-        <td>3</td>
-        <td>Catuaba Selvagem</td>
-        <td>750ml</td>
-        <td>12</td>
-        <td>
-          <button className="btn btn-sm btn-warning">Editar</button>
+        <td>12/05/2023</td>
+        <td>Erro na planta taubate</td>
+        <td>K8LL-TGB</td>
+        <td>K8LL-TGB</td>
   
-        </td>
       </tr>
       <tr>
+        <td>Normais</td>
+        <td>2</td>
+        <td>12/05/2023</td>
+        <td>Erro na planta taubate</td>
+        <td>K8LL-TGB</td>
+        <td>K8LL-TGB</td>
+  
+      </tr>
+      <tr>
+        <td>Críticos</td>
+        <td>3</td>
+        <td>12/05/2023</td>
+        <td>Erro na planta taubate</td>
+        <td>K8LL-TGB</td>
+        <td>K8LL-TGB</td>
+  
+      </tr>
+      <tr>
+        <td>Urgente</td>
         <td>4</td>
-        <td>Jurubeba do muído</td>
-        <td>Garrafa, 960ml</td>
-        <td>10</td>
-        <td>
-          <button className="btn btn-sm btn-warning">Editar</button>
-     
-        </td>
+        <td>12/05/2023</td>
+        <td>Erro na planta taubate</td>
+        <td>K8LL-TGB</td>
+        <td>K8LL-TGB</td>
+  
       </tr>
+ 
       <tr>
-        <td>5</td>
-        <td>"Vinho" São Braz</td>
-        <td>900ml</td>
-        <td>20</td>
-        <td>
-          <button className="btn btn-sm btn-warning">Editar</button>
-      
-        </td>
-      </tr>
-      <tr>
-        <td>6</td>
-        <td>Run Montilla</td>
-        <td>Carta branca, 1L</td>
-        <td>6</td>
-        <td>
-          <button className="btn btn-sm btn-warning">Editar</button>
-      
-        </td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>Cerveja Kaiser</td>
-        <td>lata, 355ml</td>
-        <td>32</td>
-        <td>
-          <button className="btn btn-sm btn-warning">Editar</button>
-    
-        </td>
-      </tr>
-      <tr>
-        <td>8</td>
-        <td>Cachaça caranguejo</td>
-        <td>garrafinha, 400ml</td>
-        <td>10</td>
-        <td>
-          <button className="btn btn-sm btn-warning">Editar</button>
-        
-        </td>
-      </tr>
-      <tr>
-        <td>9</td>
-        <td>Vodka Slova</td>
-        <td>garrafa, 960ml</td>
-        <td>10</td>
-        <td>
-          <button className="btn btn-sm btn-warning">Editar</button>
-         
-        </td>
+        <td>Urgente</td>
+        <td>1</td>
+        <td>12/05/2023</td>
+        <td>Erro na planta taubate</td>
+        <td>K8LL-TGB</td>
+        <td>K8LL-TGB</td>
+  
       </tr>
     </tbody>
   </table>
- 
+
       <script src="historico.js"></script>
-
-
-
-
-       
       </section>
     </>
-
-
-
-
   )
 }
 
