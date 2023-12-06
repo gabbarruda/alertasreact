@@ -1,5 +1,5 @@
 const INPUT_BUSCA = document.getElementById('input-busca');
-const TABELA_TABELA_ALERTAS = document.getElementById('tabela-alertas');
+const TABELA_ALERTAS = document.getElementById('tabela-alertas');
 
 INPUT_BUSCA.addEventListener('keyup', () => {
     let expressao = INPUT_BUSCA.value.toLowerCase();
